@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background-color: #000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#page_1 {
+  background-image: url(bg.jpg);
+  height: 94vh;
+  width: 100%;
+  position: relative;
+}
+#box {
+  height: 94vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-color: #000;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav > img {
+  height: 52px;
+  width: 155px;
+  position: relative;
+  left: 170px;
+  top: 20px;
+  z-index: 10;
+}
+#right_nav > select {
+  position: relative;
+  right: 210px;
+  top: 20px;
+  height: 37px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 20px;
+  border: 0.1px solid #7b7979;
+  background-color: #242222;
+  color: #fff;
+  z-index: 10;
+}
+#right_nav > button {
+  position: relative;
+  right: 190px;
+  top: 20px;
+  height: 35px;
+  width: 80px;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border: 0px;
+  z-index: 10;
+}
+#right_nav > button:hover{
+  background-color: #be2727;
+}
+
+#content {
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  top: 32%;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 50px;
+}
+#content > h1 {
+  font-size: 52px;
+  font-weight: 900;
+}
+#content > h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#content > p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#content_footer {
+  display: flex;
+  justify-content: center;
+}
+#content_footer > form > input {
+  height: 35px;
+  width: 380px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  background: transparent;
+  border: 0.5px solid #757371;
+  border-radius: 5px;
+}
+
+#content_footer > button {
+  height: 56px;
+  width: 200px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 10px 10px;
+  /* padding: 10px; */
+  background-color: red;
+  color: #fff;
+  font-size: 25px;
+}
+
+#end_line1 {
+  height: 8px;
+  width: 100%;
+  background-color: #535050;
+  position: absolute;
+  bottom: 0px;
+}
+
+#page_2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+}
+ #grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left_grid {
+  position: relative;
+  top: 200px;
+  left: 140px;
+  font-family: sans-serif;
+  line-height: 120px;
+}
+ .left_grid>h1{
+  font-size: 48px;
+  font-weight: 900;
+  position: relative;
+}
+.left_grid>p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.right_grid>img{
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width: 40vw;
+  z-index: 10;
+} 
+.right_grid>video{
+  position:relative;
+  bottom: 300px;
+  left: 180px;
+}
+#end_line2 {
+  height: 8px;
+  width: 100%;
+  background-color: #292828;
+  position: absolute;
+  bottom: 100px;
+}
+
+
+#page_3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+}
+
+#left_side>img{
+  position: relative;
+  left: 200px;
+}
+
+#left_side>button{
+  height: 100px;
+  width: 340px;
+  border: 2px solid #635e5e;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 140px;
+  left: 350px;
+  background-color: #000;
+}
+#left_side>button>img{
+  height: 85px;
+  margin: 10px;
+  position: relative;
+  right: 25px;
+  bottom: 5px;
+}
+#left_side>button>i{
+  font-size: 50px;
+  color: #488a99;
+}
+ul li{
+  list-style: none;
+}
+#left_side>button>ul li{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  position: relative;
+  top: 32px;
+  right: 40px;
+}
+#left_side>button>ul li >span{
+  color: #0071EB;
+}
+#left_side>button>i{
+  position: relative;
+  top: 20px;
+  right: 5px;
+  color: #0071EB;
+
+}
+
+#right_side{
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  font-family: sans-serif;
+}
+#right_side>h1{
+  font-size: 48px;
+  font-weight: 900;
+}
+#right_side>p{
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 150px;
+}
+#end_line3 {
+  height: 8px;
+  width: 100%;
+  background-color: #292828;
+  position: absolute;
+  bottom: 160px;
+}
+
+
+ #page_4 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+} 
+ 
+#end_line4 {
+  height: 8px;
+  width: 100%;
+  background-color: #292828;
+  position: absolute;
+  bottom: 1px;
+}
+
+#page_5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+} 
+#end_line5 {
+  height: 8px;
+  width: 100%;
+  background-color: #292828;
+  position: absolute;
+  bottom: 2px;
+}
+
+#page_5 #grid >img{
+  position: absolute;
+  top: 140px;
+  height: 450px;
+  left: 180px;
+}
+#page_5 .left_grid{
+  position: absolute;
+  left: 800px;
+}
+
+
+#page_6 {
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+  font-family: sans-serif;
+} 
+#page_6>h1{
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 170px;
+}
+
+#lists>ul>li{
+  text-align: center;
+}
+#lists>ul>li>button{
+  width: 70vw;
+  height: 12vh;
+  text-align: left;
+  background-color: #2D2D2D;
+  color: #fff;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  border: 0px solid black;
+  margin: -12px;
+  padding: 25px 20px;
+}
+#lists>ul>li>button>i{
+  font-size: 60px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+#lists>ul>li>button:hover{
+  background-color: #5b5757;
+}
+
+#page_6>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+#end_line6{
+  height: 8px;
+  width: 100%;
+  background-color: #292828;
+  position: absolute;
+  bottom: -60px;
+}
+
+#page_7{
+  height: 500px;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+  top: 100px;
+  color: #e3d9d9;
+  font-family: sans-serif;
+}
+
+#page_7>p{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
+#page_7>ul>li{
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
